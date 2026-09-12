@@ -65,7 +65,7 @@ An example might look like:
     "page 2": {
       "title": "Page 2",
       "text": "Some more text",
-      options: {
+      "options": {
       "": "Thanks for reading!"
     }
     }
