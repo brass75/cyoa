@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.14"
+
+[[package]]
+name = "cyoa"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "dykes" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "dykes", specifier = ">=0.5.0" }]
+
+[[package]]
+name = "dykes"
+version = "0.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ef/03/2dde60ec6ea87352fa1962c78cc2334e9e3048d3919b4f01af5fdc3ce21f/dykes-0.5.0.tar.gz", hash = "sha256:9cc966f3a8cbedf911c76ec127123701344eff1ed9f5045d0d32ee849828a590", size = 8059, upload-time = "2026-03-17T22:45:21.126Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f3/92/a54a3bbd2c4df079fd73b255a4045976645a2ac9195792ba208badb6b647/dykes-0.5.0-py3-none-any.whl", hash = "sha256:22f1c1df22c8e79978d9d5578d7d8d69dd2a7fd24abe8e91354262656e34881c", size = 9881, upload-time = "2026-03-17T22:45:19.809Z" },
+]

@@ -1,0 +1,28 @@
+{
+  "first_page": "page 1",
+  "pages": {
+    "page 1": {
+      "title": "The first page!",
+      "text": "This is the first page of the book.",
+      "options": {
+        "page 2": "Go to the second page.",
+        "page 3": "Go to the third page."
+      }
+    },
+    "page 2": {
+      "title": "The second page!",
+      "text": "This is the second page - well done!",
+      "options": {
+        "page 3": "Go to the third page.",
+        "page 1": "Go back to page 1."
+      }
+    },
+    "page 3": {
+      "title": "The third page",
+      "text": "This is the third page - you've made it!",
+      "options": {
+        "": "That's it. The book is over. Hope you enjoyed."
+      }
+    }
+  }
+}
