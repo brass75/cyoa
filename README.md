@@ -43,7 +43,7 @@ Once you have installed you can play a story by running:
 $ cyoa <story.json>
 ```
 
-The repo includes an example story [`story.json`]
+The repo includes an example story [story.json]
 
 ### The story file
 
