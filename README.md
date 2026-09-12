@@ -67,7 +67,7 @@ An example might look like:
       "text": "Some more text",
       "options": {
       "": "Thanks for reading!"
-    }
+      }
     }
   }
 }
