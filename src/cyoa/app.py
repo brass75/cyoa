@@ -15,10 +15,11 @@ class Args:
 
 
 def main():
-    args: Args = dykes.parse_args(Args)
-    story: dict = json.loads(args.filename.read_text())
+    args: Args = dykes.parse_args(Args)  # pyright: ignore[reportUnknownMemberType]
+    story: dict = json.loads(args.filename.read_text())  # pyright: ignore[reportMissingTypeArgument, reportAny]
     pages: dict[str, Page] = {
-        name: Page(**values) for name, values in story["pages"].items()
+        name: Page(**values)  # pyright: ignore[reportUnknownArgumentType]
+        for name, values in story["pages"].items()  # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
     }
-    engine: Engine = Engine(states=pages, first_state=story["first_page"])
+    engine: Engine = Engine(states=pages, first_state=story["first_page"])  # pyright: ignore[reportUnknownArgumentType]
     engine.run()
